@@ -1,0 +1,33 @@
+.contactList {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  font-size: 24px;
+}
+
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactNumber {
+  margin-left: 20px;
+}
+
+.listBtn {
+  width: 70px;
+  height: 20px;
+  margin: 5px 10px;
+  background-color: #00f2ff;
+
+  border: 1px solid #00f2ff;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.listBtn:hover,
+.listBtn:focus {
+  background-color: #00b2bb;
+}
