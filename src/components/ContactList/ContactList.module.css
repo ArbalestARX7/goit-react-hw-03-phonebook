@@ -1,33 +1,36 @@
 .contactList {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  margin: 0;
+  padding: 0;
   list-style: none;
-  font-size: 24px;
 }
 
 .contactItem {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  min-width: 360px;
 }
 
 .contactNumber {
-  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .listBtn {
-  width: 70px;
-  height: 20px;
-  margin: 5px 10px;
-  background-color: #00f2ff;
-
-  border: 1px solid #00f2ff;
-  border-radius: 10px;
-  transition: 0.2s;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #20bd9c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .listBtn:hover,
 .listBtn:focus {
-  background-color: #00b2bb;
+  background-color: #3bc4a7;
 }

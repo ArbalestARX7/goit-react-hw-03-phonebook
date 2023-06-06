@@ -3,7 +3,7 @@ import css from './ContactList.module.css';
 
 export const ContactList = ({ contacts, deleteContact }) => {
   return (
-    <div>
+    <>
       <ul className={css.contactList}>
         {contacts.map(({ id, name, number }) => (
           <li key={id} className={css.contactItem}>
@@ -14,7 +14,7 @@ export const ContactList = ({ contacts, deleteContact }) => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 
